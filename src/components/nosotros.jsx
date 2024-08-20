@@ -24,7 +24,7 @@ export default function Nosotros() {
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
           <div className="flex flex-col items-center justify-center space-y-4">
             <img
-              src="/perfil1.jpg"
+              src="https://res.cloudinary.com/dnyidkcvk/image/upload/v1724167399/ysenmwlrwaempbkyhjom.jpg"
               width={200}
               height={200}
               alt="Foto de perfil"
@@ -46,7 +46,7 @@ export default function Nosotros() {
           </div>
           <div className="flex flex-col items-center justify-center space-y-4">
             <img
-              src="/perfil3.png"
+              src="https://res.cloudinary.com/dnyidkcvk/image/upload/v1724167398/andqrddqfh702inohnve.jpg"
               width={200}
               height={200}
               alt="Foto de perfil"
