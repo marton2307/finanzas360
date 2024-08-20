@@ -10,7 +10,7 @@ const LeccionCard = ({ id }) => {
   const fetchLecciones = async () => {
     try {
       const response = await fetch(
-        "http://localhost:3000/lessons/by-module",
+        "https://educacionfinanciera-ipr0.onrender.com/lessons/by-module",
         {
           method: "POST", // Cambiado a POST para enviar datos en el body
           headers: {

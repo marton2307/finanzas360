@@ -69,7 +69,7 @@ const Accordion = () => {
   const fetchModulos = async (moduleId) => {
     try {
       const response = await fetch(
-        `http://localhost:3000/modules/module/${moduleId}`,
+        `https://educacionfinanciera-ipr0.onrender.com//modules/module/${moduleId}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -90,7 +90,7 @@ const Accordion = () => {
   const fetchLecciones = async (moduleId) => {
     try {
       const response = await fetch(
-        "http://localhost:3000/lessons/get-all-lessons",
+        "https://educacionfinanciera-ipr0.onrender.com/lessons/get-all-lessons",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -116,7 +116,7 @@ const Accordion = () => {
   const fetchPreguntas = async (lessonId) => {
     try {
       const response = await fetch(
-        `http://localhost:3000/questions/question/${lessonId}`,
+        `https://educacionfinanciera-ipr0.onrender.com/questions/question/${lessonId}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -148,7 +148,7 @@ const Accordion = () => {
       const responses = await Promise.all(
         questionIds.map(async (questionId) => {
           const response = await fetch(
-            `http://localhost:3000/answers/answer/${questionId}`,
+            `https://educacionfinanciera-ipr0.onrender.com/answers/answer/${questionId}`,
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },
@@ -201,7 +201,7 @@ const Accordion = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:3000/useranswers/submit-answers",
+        "https://educacionfinanciera-ipr0.onrender.com/useranswers/submit-answers",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

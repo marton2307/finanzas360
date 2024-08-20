@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const ApiExample = () => {
   const [data, setData] = useState(null);
-  const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:3000";
+  const apiUrl = import.meta.env.VITE_API_URL || "https://educacionfinanciera-ipr0.onrender.com/";
 
   useEffect(() => {
     const fetchData = async () => {
