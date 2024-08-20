@@ -69,7 +69,7 @@ const Accordion = () => {
   const fetchModulos = async (moduleId) => {
     try {
       const response = await fetch(
-        `https://educacionfinanciera-ipr0.onrender.com//modules/module/${moduleId}`,
+        `https://educacionfinanciera-ipr0.onrender.com/modules/module/${moduleId}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

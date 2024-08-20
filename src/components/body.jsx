@@ -68,7 +68,7 @@ const Body = () => {
               <div
                 className="relative flex items-end h-auto overflow-hidden bg-cover rounded-lg group"
                 style={{
-                  backgroundImage: `url('./imagen1.jpeg')`,
+                  backgroundImage: `url('https://res.cloudinary.com/dnyidkcvk/image/upload/v1724167400/ie1grefzdzmjo8zbnahm.jpg')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -90,7 +90,7 @@ const Body = () => {
               <div
                 className="relative flex items-end overflow-hidden bg-cover rounded-lg h-96 group"
                 style={{
-                  backgroundImage: `url('./imagen2.jpeg')`,
+                  backgroundImage: `url('https://res.cloudinary.com/dnyidkcvk/image/upload/v1724167400/zrben2qjceotd8yolapt.jpg')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -112,7 +112,7 @@ const Body = () => {
               <div
                 className="relative flex items-end overflow-hidden bg-cover rounded-lg h-96 group"
                 style={{
-                  backgroundImage: `url('./imagen3.jpeg')`,
+                  backgroundImage: `url('https://res.cloudinary.com/dnyidkcvk/image/upload/v1724167400/qcxaaxqrrjkfcpubfip5.jpg')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -135,7 +135,7 @@ const Body = () => {
               <div
                 className="relative flex items-end overflow-hidden bg-cover rounded-lg h-96 group"
                 style={{
-                  backgroundImage: `url('./imagen5.jpeg')`,
+                  backgroundImage: `url('https://res.cloudinary.com/dnyidkcvk/image/upload/v1724167398/yrjdk1rgyzb6ue3uj6vc.jpg')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
