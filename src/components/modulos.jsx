@@ -70,9 +70,9 @@ const ModuloCard = () => {
 
   // URLs de los videos para cada módulo
   const videoUrls = [
-    "https://www.youtube.com/embed/KWYsOS4w53g?si=HTkpdnO-NZPh6AfE", // Primer módulo
-    "https://www.youtube.com/embed/6xPmUtTh3rE", // Segundo módulo
-    "https://www.youtube.com/embed/YdgyfpfZpJw"  // Tercer módulo
+    "https://res.cloudinary.com/dnyidkcvk/video/upload/v1724167404/jekl4kjkx02jl5a2yh0e.mp4", // Primer módulo
+    "https://www.youtube.com/embed/https://res.cloudinary.com/dnyidkcvk/video/upload/v1724167402/tv3ydsdbamwkqqbj6vlq.mp4", // Segundo módulo
+    "https://res.cloudinary.com/dnyidkcvk/video/upload/v1724167409/ctyybnfybp2zmwx1yaco.mp4"  // Tercer módulo
   ];
 
   if (modulos.length === 0) {
@@ -89,7 +89,7 @@ const ModuloCard = () => {
           <div className="relative w-full h-48">
             <img
               className="object-cover w-full h-full rounded-md"
-              src={modulo.imageUrl || "./introduccion.jpeg"}
+              src={modulo.imageUrl || "https://res.cloudinary.com/dnyidkcvk/image/upload/v1724167398/da6vjogrmgf8uzlhzee4.jpg"}
               alt={modulo.name}
             />
           </div>
