@@ -5,7 +5,7 @@ import "../App.css";
 const Body = () => {
   return (
     <div>
-      <section className="relative w-full h-screen bg-center bg-no-repeat bg-cover bg-[url('./inicio.jpeg')] bg-gray-700 bg-blend-multiply">
+      <section className="relative w-full h-screen bg-center bg-no-repeat bg-cover bg-[url('https://res.cloudinary.com/dnyidkcvk/image/upload/v1724167398/gswj2cx0i6t0vl64n5lw.jpg')] bg-gray-700 bg-blend-multiply">
         <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl transition-transform duration-500 ease-in-out transform hover:scale-105 hover:text-gray-300">
             Transforma tu Futuro Financiero
